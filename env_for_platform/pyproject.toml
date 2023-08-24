@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "env-for-platform"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "env_for_platform"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+django = "^4.2.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
